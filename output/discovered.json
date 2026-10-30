@@ -4,7 +4,7 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21589,
+  "stars": 21602,
   "pushed": "2026-10-28",
   "entries": 2053
  },
@@ -13,16 +13,16 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 9942,
+  "stars": 9945,
   "pushed": "2026-10-30",
-  "entries": 308
+  "entries": 433
  },
  {
   "name": "gh-beijing-iptv-IPTVMobileMultic",
   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u",
   "enabled": true,
   "source_repo": "qwerttvv/Beijing-IPTV",
-  "stars": 2307,
+  "stars": 2308,
   "pushed": "2026-10-01",
   "entries": 165
  },
@@ -31,7 +31,7 @@
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2106,
+  "stars": 2105,
   "pushed": "2026-10-30",
   "entries": 60
  },
@@ -49,7 +49,7 @@
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1720,
+  "stars": 1730,
   "pushed": "2026-10-30",
   "entries": 42
  },
@@ -58,9 +58,9 @@
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 941,
-  "pushed": "2026-10-29",
-  "entries": 101
+  "stars": 942,
+  "pushed": "2026-10-30",
+  "entries": 95
  },
  {
   "name": "gh-iptv-livem3u",
