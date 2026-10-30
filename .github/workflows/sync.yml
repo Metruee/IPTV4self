@@ -1,0 +1,42 @@
+name: sync-iptv
+
+on:
+  schedule:
+    - cron: "0 20 * * *"      # 每天 UTC 20:00 = 北京 04:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 发现上游（近 30 天有更新）
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/discover.py
+
+      - name: 抓取 + 探测 + 生成 m3u
+        env:
+          PROBE_WORKERS: "64"
+          PROBE_TIMEOUT: "8"
+        run: python3 scripts/build.py
+
+      - name: 提交结果
+        run: |
+          git config user.name "iptv4self-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add output/iptv.m3u output/report.json output/discovered.json
+          if git diff --cached --quiet; then
+            echo "无变化"
+          else
+            git commit -m "auto: update playlist $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

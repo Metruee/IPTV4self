@@ -1,0 +1,9 @@
+[
+  {"name": "fanmingming-index", "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/index.m3u", "enabled": true},
+  {"name": "fanmingming-itv",   "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/itv.m3u", "enabled": true},
+  {"name": "fanmingming-ipv6",  "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u", "enabled": true},
+  {"name": "Guovin-iptv-api",   "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u", "enabled": true},
+  {"name": "ssili126-tv",       "url": "https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u", "enabled": true},
+  {"name": "vbskycn-iptv4",     "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u", "enabled": true},
+  {"name": "iptv-org-cn",       "url": "https://iptv-org.github.io/iptv/countries/cn.m3u", "enabled": true}
+]
