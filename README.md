@@ -4,7 +4,8 @@
 
 产物：
 
-- `output/iptv.m3u` — 播放列表（按央视 / 卫视 / 地方 / 港澳台 / 体育 / 电影 / 少儿 / 纪录 / 国际 / 其他 分组）
+- `output/iptv.m3u` — 全量播放列表（央视 / 卫视 / 地方 / 港澳台 / 体育 / 电影 / 少儿 / 纪录 / 新闻 / 音乐 / 国际 / 其他）
+- `output/cn.m3u` — 中文精简版（去掉"国际"分组，适合只看国内频道）
 - `output/report.json` — 每个上游的抓取量、存活率、分组统计
 - `output/discovered.json` — 自动发现的上游（近 30 天有更新且已验证可用）
 
@@ -13,6 +14,9 @@
 订阅地址（任一播放器添加为 M3U 源）：
 
 ```
+# 中文精简版（推荐）
+https://raw.githubusercontent.com/Metruee/IPTV4self/main/output/cn.m3u
+# 全量（含海外频道）
 https://raw.githubusercontent.com/Metruee/IPTV4self/main/output/iptv.m3u
 ```
 
@@ -57,7 +61,15 @@ python3 discover.py       # 可选，需要 GITHUB_TOKEN
 python3 build.py
 ```
 
-可调环境变量：`PROBE_WORKERS`（并发，默认 48）、`PROBE_TIMEOUT`（秒，默认 8）、`MAX_PER_NAME`（同名保留条数，默认 3）。
+可调环境变量：
+
+| 变量 | 默认 | 作用 |
+|---|---|---|
+| `PROBE_WORKERS` | 48 | 探测并发数 |
+| `PROBE_TIMEOUT` | 8 | 单流超时（秒）|
+| `MAX_PER_NAME` | 3 | 同名频道保留几条线路 |
+| `MAX_PER_UPSTREAM` | 2500 | 单个上游最多取多少条 |
+| `MAX_TOTAL` | 9000 | 总探测上限 |
 
 ## 说明
 

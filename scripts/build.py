@@ -124,20 +124,27 @@ def main():
     final.sort(key=gkey)
 
     os.makedirs(OUT, exist_ok=True)
-    lines = ["#EXTM3U"]
-    for c in final:
-        name = c.get("name", "").strip()
-        if not name or len(name) < 2 or JUNK.search(name):
-            continue
-        logo = c.get("logo", "")
-        attrs = 'tvg-name="%s"' % name.replace('"', "")
-        if logo:
-            attrs += ' tvg-logo="%s"' % logo.replace('"', "")
-        attrs += ' group-title="%s"' % c["group"]
-        lines.append("#EXTINF:-1 %s,%s" % (attrs, name))
-        lines.append(c["url"])
-    m3u_path = os.path.join(OUT, "iptv.m3u")
-    open(m3u_path, "w", encoding="utf-8").write("\n".join(lines) + "\n")
+
+    def _emit(items, path):
+        lines = ["#EXTM3U"]
+        for c in items:
+            name = c.get("name", "").strip()
+            if not name or len(name) < 2 or JUNK.search(name):
+                continue
+            logo = c.get("logo", "")
+            attrs = 'tvg-name="%s"' % name.replace('"', "")
+            if logo:
+                attrs += ' tvg-logo="%s"' % logo.replace('"', "")
+            attrs += ' group-title="%s"' % c["group"]
+            lines.append("#EXTINF:-1 %s,%s" % (attrs, name))
+            lines.append(c["url"])
+        open(path, "w", encoding="utf-8").write("\n".join(lines) + "\n")
+        return len(lines) // 2 - 1
+
+    n_all = _emit(final, os.path.join(OUT, "iptv.m3u"))
+    cn = [c for c in final if c["group"] not in ("国际",)]
+    n_cn = _emit(cn, os.path.join(OUT, "cn.m3u"))
+    print("全量 %d 个频道 / 中文精简 %d 个" % (n_all, n_cn), flush=True)
 
     # 统计
     groups = {}
@@ -156,6 +163,7 @@ def main():
         "alive": len(results),
         "alive_rate": round(100.0 * len(results) / max(1, len(uniq)), 1),
         "output_channels": len(final),
+        "output_cn": len(cn),
         "groups": dict(sorted(groups.items(), key=lambda kv: -kv[1])),
         "by_source": dict(sorted(by_src.items(), key=lambda kv: -kv[1])),
         "per_upstream": src_stats,
