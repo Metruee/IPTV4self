@@ -4,7 +4,7 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21588,
+  "stars": 21589,
   "pushed": "2026-10-28",
   "entries": 2053
  },
@@ -49,7 +49,7 @@
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1719,
+  "stars": 1720,
   "pushed": "2026-10-30",
   "entries": 42
  },
