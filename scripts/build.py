@@ -19,6 +19,8 @@ OUT = os.path.join(ROOT, "output")
 WORKERS = int(os.environ.get("PROBE_WORKERS", "48"))
 TIMEOUT = float(os.environ.get("PROBE_TIMEOUT", "8"))
 MAX_PER_NAME = int(os.environ.get("MAX_PER_NAME", "3"))
+MAX_PER_UPSTREAM = int(os.environ.get("MAX_PER_UPSTREAM", "2500"))
+MAX_TOTAL = int(os.environ.get("MAX_TOTAL", "9000"))
 
 
 def load_upstreams():
@@ -58,7 +60,7 @@ def main():
                 src_stats[e["name"]] = -1
                 print("  %-28s 失败 %s" % (e["name"], str(err)[:50]), flush=True)
                 continue
-            for c in chs:
+            for c in chs[:MAX_PER_UPSTREAM]:
                 raw.append((e["name"], c))
             src_stats[e["name"]] = len(chs)
             print("  %-28s %4d 条" % (e["name"], len(chs)), flush=True)
@@ -72,6 +74,8 @@ def main():
         seen.add(u)
         c["source"] = src
         uniq.append(c)
+        if len(uniq) >= MAX_TOTAL:
+            break
     print("去重后 %d 个流（原始 %d）" % (len(uniq), len(raw)), flush=True)
 
     # 并发探测

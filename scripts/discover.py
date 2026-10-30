@@ -28,8 +28,8 @@ QUERIES = [
     "直播源 m3u",
     "ipv6 iptv",
 ]
-DIRS = ["", "tv", "m3u", "output", "dist", "public", "playlist", "lists", "sources", "result"]
-MAX_CANDIDATES = 60
+DIRS = ["", "tv", "m3u", "output", "dist"]
+MAX_CANDIDATES = 40
 MIN_STARS = 20
 
 

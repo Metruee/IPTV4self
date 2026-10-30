@@ -1,0 +1,74 @@
+[
+ {
+  "name": "gh-iptv-playlistm3u8",
+  "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+  "enabled": true,
+  "source_repo": "Free-TV/IPTV",
+  "stars": 21588,
+  "pushed": "2026-10-28",
+  "entries": 2053
+ },
+ {
+  "name": "gh-iptv-iptv4m3u",
+  "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
+  "enabled": true,
+  "source_repo": "vbskycn/iptv",
+  "stars": 9942,
+  "pushed": "2026-10-30",
+  "entries": 308
+ },
+ {
+  "name": "gh-beijing-iptv-IPTVMobileMultic",
+  "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u",
+  "enabled": true,
+  "source_repo": "qwerttvv/Beijing-IPTV",
+  "stars": 2307,
+  "pushed": "2026-10-01",
+  "entries": 165
+ },
+ {
+  "name": "gh-chinaiptv-Globalm3u8",
+  "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
+  "enabled": true,
+  "source_repo": "hujingguang/ChinaIPTV",
+  "stars": 2106,
+  "pushed": "2026-10-30",
+  "entries": 60
+ },
+ {
+  "name": "gh-collect-txt-bbxx365m3u",
+  "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx365.m3u",
+  "enabled": true,
+  "source_repo": "kimwang1978/collect-txt",
+  "stars": 1965,
+  "pushed": "2026-10-30",
+  "entries": 20639
+ },
+ {
+  "name": "gh-iptv-IPTVoverseasm3u",
+  "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
+  "enabled": true,
+  "source_repo": "akiralereal/iptv",
+  "stars": 1719,
+  "pushed": "2026-10-30",
+  "entries": 42
+ },
+ {
+  "name": "gh-iptv-sources-cn_allm3u8",
+  "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
+  "enabled": true,
+  "source_repo": "best-fan/iptv-sources",
+  "stars": 941,
+  "pushed": "2026-10-29",
+  "entries": 101
+ },
+ {
+  "name": "gh-iptv-livem3u",
+  "url": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
+  "enabled": true,
+  "source_repo": "CCSH/IPTV",
+  "stars": 532,
+  "pushed": "2026-10-30",
+  "entries": 2381
+ }
+]
