@@ -4,18 +4,18 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21657,
-  "pushed": "2026-10-28",
-  "entries": 2053
+  "stars": 21687,
+  "pushed": "2026-11-02",
+  "entries": 2065
  },
  {
   "name": "gh-iptv-iptv4m3u",
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10032,
-  "pushed": "2026-11-01",
-  "entries": 225
+  "stars": 10065,
+  "pushed": "2026-11-02",
+  "entries": 465
  },
  {
   "name": "gh-chinaiptv-Globalm3u8",
@@ -23,7 +23,7 @@
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
   "stars": 2110,
-  "pushed": "2026-11-01",
+  "pushed": "2026-11-03",
   "entries": 60
  },
  {
@@ -31,17 +31,17 @@
   "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx365.m3u",
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
-  "stars": 1965,
-  "pushed": "2026-11-01",
-  "entries": 20919
+  "stars": 1964,
+  "pushed": "2026-11-02",
+  "entries": 20932
  },
  {
   "name": "gh-iptv-IPTVoverseasm3u",
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1767,
-  "pushed": "2026-11-01",
+  "stars": 1785,
+  "pushed": "2026-11-02",
   "entries": 42
  },
  {
@@ -50,17 +50,17 @@
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
   "stars": 954,
-  "pushed": "2026-11-01",
-  "entries": 142
+  "pushed": "2026-11-02",
+  "entries": 128
  },
  {
   "name": "gh-iptv-livem3u",
   "url": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
   "enabled": true,
   "source_repo": "CCSH/IPTV",
-  "stars": 538,
-  "pushed": "2026-11-01",
-  "entries": 4090
+  "stars": 539,
+  "pushed": "2026-11-03",
+  "entries": 4099
  },
  {
   "name": "gh-iptv-iptvm3u",
@@ -68,7 +68,7 @@
   "enabled": true,
   "source_repo": "zhi35/iptv",
   "stars": 475,
-  "pushed": "2026-11-01",
-  "entries": 396
+  "pushed": "2026-11-02",
+  "entries": 395
  }
 ]
