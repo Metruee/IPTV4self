@@ -4,7 +4,7 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21687,
+  "stars": 21695,
   "pushed": "2026-11-02",
   "entries": 2065
  },
@@ -13,17 +13,17 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10065,
-  "pushed": "2026-11-02",
-  "entries": 465
+  "stars": 10080,
+  "pushed": "2026-11-03",
+  "entries": 304
  },
  {
   "name": "gh-chinaiptv-Globalm3u8",
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2110,
-  "pushed": "2026-11-03",
+  "stars": 2115,
+  "pushed": "2026-11-04",
   "entries": 60
  },
  {
@@ -32,15 +32,15 @@
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
   "stars": 1964,
-  "pushed": "2026-11-02",
-  "entries": 20932
+  "pushed": "2026-11-03",
+  "entries": 20925
  },
  {
   "name": "gh-iptv-IPTVoverseasm3u",
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1785,
+  "stars": 1811,
   "pushed": "2026-11-02",
   "entries": 42
  },
@@ -49,26 +49,26 @@
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 954,
-  "pushed": "2026-11-02",
-  "entries": 128
+  "stars": 962,
+  "pushed": "2026-11-03",
+  "entries": 142
  },
  {
   "name": "gh-iptv-livem3u",
   "url": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
   "enabled": true,
   "source_repo": "CCSH/IPTV",
-  "stars": 539,
-  "pushed": "2026-11-03",
-  "entries": 4099
+  "stars": 540,
+  "pushed": "2026-11-04",
+  "entries": 4147
  },
  {
   "name": "gh-iptv-iptvm3u",
   "url": "https://raw.githubusercontent.com/zhi35/iptv/master/iptv.m3u",
   "enabled": true,
   "source_repo": "zhi35/iptv",
-  "stars": 475,
-  "pushed": "2026-11-02",
-  "entries": 395
+  "stars": 476,
+  "pushed": "2026-11-03",
+  "entries": 393
  }
 ]
