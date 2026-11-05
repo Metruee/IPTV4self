@@ -4,7 +4,7 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21695,
+  "stars": 21732,
   "pushed": "2026-11-02",
   "entries": 2065
  },
@@ -13,17 +13,17 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10080,
-  "pushed": "2026-11-03",
-  "entries": 304
+  "stars": 10094,
+  "pushed": "2026-11-04",
+  "entries": 214
  },
  {
   "name": "gh-chinaiptv-Globalm3u8",
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2115,
-  "pushed": "2026-11-04",
+  "stars": 2120,
+  "pushed": "2026-11-05",
   "entries": 60
  },
  {
@@ -31,17 +31,17 @@
   "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx365.m3u",
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
-  "stars": 1964,
-  "pushed": "2026-11-03",
-  "entries": 20925
+  "stars": 1965,
+  "pushed": "2026-11-04",
+  "entries": 21081
  },
  {
   "name": "gh-iptv-IPTVoverseasm3u",
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1811,
-  "pushed": "2026-11-02",
+  "stars": 1835,
+  "pushed": "2026-11-04",
   "entries": 42
  },
  {
@@ -49,26 +49,26 @@
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 962,
-  "pushed": "2026-11-03",
-  "entries": 142
+  "stars": 968,
+  "pushed": "2026-11-04",
+  "entries": 339
  },
  {
   "name": "gh-iptv-livem3u",
   "url": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
   "enabled": true,
   "source_repo": "CCSH/IPTV",
-  "stars": 540,
-  "pushed": "2026-11-04",
-  "entries": 4147
+  "stars": 543,
+  "pushed": "2026-11-05",
+  "entries": 4129
  },
  {
   "name": "gh-iptv-iptvm3u",
   "url": "https://raw.githubusercontent.com/zhi35/iptv/master/iptv.m3u",
   "enabled": true,
   "source_repo": "zhi35/iptv",
-  "stars": 476,
-  "pushed": "2026-11-03",
-  "entries": 393
+  "stars": 478,
+  "pushed": "2026-11-04",
+  "entries": 392
  }
 ]
