@@ -4,8 +4,8 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21828,
-  "pushed": "2026-11-08",
+  "stars": 21843,
+  "pushed": "2026-11-10",
   "entries": 2203
  },
  {
@@ -13,16 +13,16 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10248,
-  "pushed": "2026-11-08",
-  "entries": 431
+  "stars": 10270,
+  "pushed": "2026-11-09",
+  "entries": 424
  },
  {
   "name": "gh-beijing-iptv-IPTVMobileMultic",
   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u",
   "enabled": true,
   "source_repo": "qwerttvv/Beijing-IPTV",
-  "stars": 2312,
+  "stars": 2315,
   "pushed": "2026-11-08",
   "entries": 165
  },
@@ -31,8 +31,8 @@
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2127,
-  "pushed": "2026-11-08",
+  "stars": 2131,
+  "pushed": "2026-11-10",
   "entries": 60
  },
  {
@@ -41,16 +41,16 @@
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
   "stars": 1965,
-  "pushed": "2026-11-08",
-  "entries": 21001
+  "pushed": "2026-11-09",
+  "entries": 21350
  },
  {
   "name": "gh-iptv-IPTVoverseasm3u",
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1903,
-  "pushed": "2026-11-08",
+  "stars": 1918,
+  "pushed": "2026-11-09",
   "entries": 42
  },
  {
@@ -58,17 +58,17 @@
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 995,
-  "pushed": "2026-11-08",
-  "entries": 298
+  "stars": 1001,
+  "pushed": "2026-11-09",
+  "entries": 199
  },
  {
   "name": "gh-iptv-livem3u",
   "url": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
   "enabled": true,
   "source_repo": "CCSH/IPTV",
-  "stars": 547,
-  "pushed": "2026-11-08",
-  "entries": 6950
+  "stars": 549,
+  "pushed": "2026-11-10",
+  "entries": 6930
  }
 ]
