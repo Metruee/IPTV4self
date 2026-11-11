@@ -4,8 +4,8 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21843,
-  "pushed": "2026-11-10",
+  "stars": 21859,
+  "pushed": "2026-11-11",
   "entries": 2203
  },
  {
@@ -13,9 +13,9 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10270,
-  "pushed": "2026-11-09",
-  "entries": 424
+  "stars": 10281,
+  "pushed": "2026-11-10",
+  "entries": 430
  },
  {
   "name": "gh-beijing-iptv-IPTVMobileMultic",
@@ -31,8 +31,8 @@
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2131,
-  "pushed": "2026-11-10",
+  "stars": 2132,
+  "pushed": "2026-11-11",
   "entries": 60
  },
  {
@@ -40,17 +40,17 @@
   "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx365.m3u",
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
-  "stars": 1965,
-  "pushed": "2026-11-09",
-  "entries": 21350
+  "stars": 1968,
+  "pushed": "2026-11-10",
+  "entries": 21234
  },
  {
   "name": "gh-iptv-IPTVoverseasm3u",
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1918,
-  "pushed": "2026-11-09",
+  "stars": 1934,
+  "pushed": "2026-11-10",
   "entries": 42
  },
  {
@@ -58,17 +58,17 @@
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 1001,
-  "pushed": "2026-11-09",
-  "entries": 199
+  "stars": 1005,
+  "pushed": "2026-11-10",
+  "entries": 266
  },
  {
   "name": "gh-iptv-livem3u",
   "url": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
   "enabled": true,
   "source_repo": "CCSH/IPTV",
-  "stars": 549,
-  "pushed": "2026-11-10",
-  "entries": 6930
+  "stars": 550,
+  "pushed": "2026-11-11",
+  "entries": 6977
  }
 ]
