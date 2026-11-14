@@ -4,7 +4,7 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 21909,
+  "stars": 21935,
   "pushed": "2026-11-14",
   "entries": 2203
  },
@@ -13,9 +13,9 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10343,
-  "pushed": "2026-11-13",
-  "entries": 427
+  "stars": 10358,
+  "pushed": "2026-11-14",
+  "entries": 425
  },
  {
   "name": "gh-beijing-iptv-IPTVMobileMultic",
@@ -31,7 +31,7 @@
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2139,
+  "stars": 2140,
   "pushed": "2026-11-14",
   "entries": 60
  },
@@ -40,8 +40,8 @@
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 1976,
-  "pushed": "2026-11-12",
+  "stars": 1989,
+  "pushed": "2026-11-14",
   "entries": 42
  },
  {
@@ -50,25 +50,25 @@
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
   "stars": 1972,
-  "pushed": "2026-11-13",
-  "entries": 21481
+  "pushed": "2026-11-14",
+  "entries": 21461
  },
  {
   "name": "gh-iptv-sources-cn_allm3u8",
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 1019,
-  "pushed": "2026-11-12",
-  "entries": 334
+  "stars": 1022,
+  "pushed": "2026-11-14",
+  "entries": 253
  },
  {
-  "name": "gh-iptv-livem3u",
-  "url": "https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u",
+  "name": "gh-bj-unicom-iptv-bjunicomiptvm3u",
+  "url": "https://raw.githubusercontent.com/wuwentao/bj-unicom-iptv/main/bj-unicom-iptv.m3u",
   "enabled": true,
-  "source_repo": "CCSH/IPTV",
-  "stars": 552,
+  "source_repo": "wuwentao/bj-unicom-iptv",
+  "stars": 720,
   "pushed": "2026-11-14",
-  "entries": 4623
+  "entries": 158
  }
 ]
