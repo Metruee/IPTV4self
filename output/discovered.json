@@ -4,7 +4,7 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 22008,
+  "stars": 22110,
   "pushed": "2026-11-16",
   "entries": 2203
  },
@@ -13,9 +13,9 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10407,
-  "pushed": "2026-11-16",
-  "entries": 433
+  "stars": 10517,
+  "pushed": "2026-11-17",
+  "entries": 432
  },
  {
   "name": "gh-beijing-iptv-IPTVMobileMultic",
@@ -31,8 +31,8 @@
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2143,
-  "pushed": "2026-11-17",
+  "stars": 2145,
+  "pushed": "2026-11-18",
   "entries": 60
  },
  {
@@ -40,8 +40,8 @@
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 2041,
-  "pushed": "2026-11-14",
+  "stars": 2064,
+  "pushed": "2026-11-17",
   "entries": 42
  },
  {
@@ -50,17 +50,17 @@
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
   "stars": 1973,
-  "pushed": "2026-11-16",
-  "entries": 21441
+  "pushed": "2026-11-17",
+  "entries": 21380
  },
  {
   "name": "gh-iptv-sources-cn_allm3u8",
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 1032,
-  "pushed": "2026-11-16",
-  "entries": 340
+  "stars": 1037,
+  "pushed": "2026-11-17",
+  "entries": 448
  },
  {
   "name": "gh-bj-unicom-iptv-bjunicomiptvm3u",
@@ -68,7 +68,7 @@
   "enabled": true,
   "source_repo": "wuwentao/bj-unicom-iptv",
   "stars": 720,
-  "pushed": "2026-11-15",
+  "pushed": "2026-11-17",
   "entries": 158
  }
 ]
