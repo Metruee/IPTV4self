@@ -4,7 +4,7 @@
   "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
   "enabled": true,
   "source_repo": "Free-TV/IPTV",
-  "stars": 22256,
+  "stars": 22276,
   "pushed": "2026-11-16",
   "entries": 2203
  },
@@ -13,17 +13,17 @@
   "url": "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u",
   "enabled": true,
   "source_repo": "vbskycn/iptv",
-  "stars": 10782,
-  "pushed": "2026-11-24",
-  "entries": 339
+  "stars": 10794,
+  "pushed": "2026-11-25",
+  "entries": 348
  },
  {
   "name": "gh-iptv-IPTVoverseasm3u",
   "url": "https://raw.githubusercontent.com/akiralereal/iptv/main/IPTV-overseas.m3u",
   "enabled": true,
   "source_repo": "akiralereal/iptv",
-  "stars": 2402,
-  "pushed": "2026-11-24",
+  "stars": 2528,
+  "pushed": "2026-11-25",
   "entries": 42
  },
  {
@@ -31,7 +31,7 @@
   "url": "https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/master/IPTV-Mobile-Multicast.m3u",
   "enabled": true,
   "source_repo": "qwerttvv/Beijing-IPTV",
-  "stars": 2321,
+  "stars": 2322,
   "pushed": "2026-11-21",
   "entries": 166
  },
@@ -40,8 +40,8 @@
   "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Global.m3u8",
   "enabled": true,
   "source_repo": "hujingguang/ChinaIPTV",
-  "stars": 2157,
-  "pushed": "2026-11-24",
+  "stars": 2158,
+  "pushed": "2026-11-25",
   "entries": 60
  },
  {
@@ -49,16 +49,16 @@
   "url": "https://raw.githubusercontent.com/kimwang1978/collect-txt/main/bbxx365.m3u",
   "enabled": true,
   "source_repo": "kimwang1978/collect-txt",
-  "stars": 1978,
-  "pushed": "2026-11-23",
-  "entries": 21625
+  "stars": 1979,
+  "pushed": "2026-11-24",
+  "entries": 21929
  },
  {
   "name": "gh-iptv-sources-cn_allm3u8",
   "url": "https://raw.githubusercontent.com/best-fan/iptv-sources/main/cn_all.m3u8",
   "enabled": true,
   "source_repo": "best-fan/iptv-sources",
-  "stars": 1060,
+  "stars": 1063,
   "pushed": "2026-11-23",
   "entries": 296
  },
@@ -67,7 +67,7 @@
   "url": "https://raw.githubusercontent.com/wuwentao/bj-unicom-iptv/main/bj-unicom-iptv.m3u",
   "enabled": true,
   "source_repo": "wuwentao/bj-unicom-iptv",
-  "stars": 721,
+  "stars": 722,
   "pushed": "2026-11-18",
   "entries": 168
  }
